@@ -943,3 +943,130 @@ span {
         margin: 2rem 0;
     }
 }
+/* Mobile Styles */
+@media (max-width: 768px) {
+    html {
+        font-size: 50%;
+        /* Adjust base font size for smaller screens */
+    }
+
+    .header {
+        padding: 2rem 5%;
+        flex-direction: column;
+        align-items: flex-start;
+        /* Stack elements vertically */
+    }
+
+    .logo {
+        font-size: 2.5rem;
+        /* Adjust logo size */
+    }
+
+    .navbar a {
+        font-size: 1.5rem;
+        /* Adjust font size for navbar links */
+        margin-left: 2rem;
+        /* Reduce margin for links */
+    }
+
+    #menu-icon {
+        display: block;
+        /* Show menu icon on mobile */
+    }
+
+    section {
+        padding: 5rem 5%;
+        /* Adjust padding for sections */
+    }
+
+    .home-content h1 {
+        font-size: 4rem;
+        /* Adjust heading size */
+    }
+
+    .home-content h3 {
+        font-size: 2.5rem;
+        /* Adjust subheading size */
+    }
+
+    .home-content p {
+        font-size: 1.2rem;
+        /* Adjust paragraph size */
+    }
+
+    .social-icons a {
+        width: 3rem;
+        /* Adjust social icon size */
+        height: 3rem;
+        font-size: 1.8rem;
+        /* Adjust icon font size */
+    }
+
+    .btn {
+        padding: 0.8rem 1.5rem;
+        /* Adjust button padding */
+        font-size: 1.4rem;
+        /* Adjust button font size */
+    }
+
+    .timeline-items {
+        flex-direction: column;
+        /* Stack timeline items vertically */
+        align-items: center;
+        /* Center align */
+    }
+
+    .services-container {
+        grid-template-columns: 1fr;
+        /* Single column layout for services */
+    }
+
+    .projects-box img {
+        width: 12rem;
+        /* Adjust project image size */
+    }
+
+    .wrapper {
+        grid-template-columns: 1fr;
+        /* Single column for project items */
+    }
+
+    .contact form {
+        flex-direction: column;
+        /* Stack form elements */
+        gap: 1.5rem;
+        /* Adjust gap */
+    }
+
+    .footer .social a {
+        font-size: 20px;
+        /* Adjust footer social icon size */
+    }
+
+    .skills-container {
+        grid-template-columns: repeat(3, 1fr);
+        /* Adjust skills display */
+    }
+
+    .certificate-container {
+        grid-template-columns: 1fr;
+        /* Single column for certificates */
+    }
+
+    .certificate-item img {
+        height: 200px;
+        /* Adjust image height for certificates */
+    }
+
+    .btn-group {
+        flex-direction: column;
+        /* Stack buttons vertically */
+    }
+
+    .btn-group a {
+        width: 100%;
+        /* Make buttons full width */
+        margin-bottom: 1rem;
+        /* Add space between buttons */
+    }
+}
