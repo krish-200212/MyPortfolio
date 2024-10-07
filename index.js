@@ -20,7 +20,7 @@ window.onscroll = () => {
 
   let scrollTop = window.scrollY;
   if (scrollTop > lastScrollTop) {
-    navbar.style.display = "none"; // Hide navbar when scrolling down
+    // navbar.style.display = "none"; // Hide navbar when scrolling down
     menuIcon.classList.remove("bx-x"); // Change icon back to default
   }
   lastScrollTop = scrollTop; // Update the last scroll position
